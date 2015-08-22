@@ -30,7 +30,7 @@ body {
 
 .navbar {
 	border-radius: 0;
-	margin-bottom: 0;
+	// margin-bottom: 0;
 }
 
 .navbar {
@@ -44,6 +44,10 @@ body {
 
 .center {
 	text-align: center; 
+}
+
+.container .jumbotron {
+	border-radius: 5px;
 }
 
 .jumbotron h1 {
