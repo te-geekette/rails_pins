@@ -36,6 +36,9 @@ gem 'actionpack', '~> 4.0.2'
 # Action Mailer
 gem 'actionmailer', '~> 4.0.2'
 
+# Devise
+gem 'devise'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
