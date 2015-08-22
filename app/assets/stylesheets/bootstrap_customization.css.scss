@@ -1,1 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+// Body
+$body-bg: rgba(182,182,182,0.67);
+
+// Font
+$font-family-sans-serfi: 'Lato', 'Helvetiaca Neue', Helvetica, Arial, sans-serif;
+
+// Navbar
+$navbar-inverse-bg: #303F9F;
+$navbar-inverse-link-color: #C5CAE9;
+
+// Jumbotron
+$jumbotron-bg: #3F51B5;
+$jumbotron-heading-color: #FFFFFF;
+$jumbotron-color: #C5CAE9;
+
+// Buttons
+$btn-primary-bg: #607D8B;
+$btn-primary-color: #FFFFFF;
+$btn-primary-border: #607D8B;
+
+
 @import "bootstrap";
+
+body {
+	font-weight: 100;
+	line-height: 1.5;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar {
+	font-weight: 300; 
+}
+
+.btn-lg {
+	border-radius: 0;
+	font-weight: 100;
+}
+
+.center {
+	text-align: center; 
+}
+
+.jumbotron h1 {
+	font-size: 4em;
+	font-weight: 100;
+	margin-bottom: 30px; 
+}
+
+.jumbotron p {
+	font-weight: 100;
+	line-height: 1.5;
+}
