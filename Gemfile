@@ -42,7 +42,8 @@ gem 'devise'
 # Paperclip, to upload images
 gem 'paperclip', '~> 4.2'
 
-# AWS for storing files
+# AWS for storing files // Couldn't get nokogiri to install, so stopped pushing to Heroku
+# gem 'aws-sdk'
 
 
 group :development, :test do
@@ -53,7 +54,7 @@ end
 group :production do 
 	gem 'pg'
 	gem 'rails_12factor'
-	gem 'aws-sdk', '< 2.0'
+
 end
 
 group :doc do
