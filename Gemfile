@@ -42,6 +42,9 @@ gem 'devise'
 # Paperclip, to upload images
 gem 'paperclip', '~> 4.2'
 
+# AWS for storing files
+
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
@@ -50,6 +53,7 @@ end
 group :production do 
 	gem 'pg'
 	gem 'rails_12factor'
+	gem 'aws-sdk', '< 2.0'
 end
 
 group :doc do
