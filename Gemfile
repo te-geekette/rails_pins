@@ -39,6 +39,9 @@ gem 'actionmailer', '~> 4.0.2'
 # Devise
 gem 'devise'
 
+# Paperclip, to upload images
+gem 'paperclip', '~> 4.2'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
